@@ -1,0 +1,124 @@
+.none{
+    opacity: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+    position: absolute;
+    width: 883px;
+    height: 762px;
+    left: 700px;
+    border-radius: 20px;
+
+
+}
+
+
+.overview-output{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+    position: absolute;
+    width: 789px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: none;
+    flex-grow: 0;
+}
+
+.schedule-output{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+    position: absolute;
+    width: 789px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: none;
+    flex-grow: 0;
+}
+
+.resources-output{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+    position: absolute;
+    width: 789px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: none;
+    flex-grow: 0;
+
+}
+
+.title{
+    height: 18px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    font-feature-settings: 'liga' off;
+    gap: 16px;
+
+}
+
+.text-input-frame{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    background: #F1F4F8;
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+    flex: none;
+    flex-grow: 0;
+    gap: 16px;
+}
+
+.video-upload-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 20px;
+    gap: 8px;
+    width: 94.60%;
+    border: 1px dashed #B2B6BC;
+    border-radius: 12px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #778188;
+}
+.added{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 24px;
+
+    background: #EDEAFF;
+    border-radius: 12px;
+    flex: none;
+    flex-grow: 0;
+    color: #793EF5;
+
+}
